@@ -11,6 +11,11 @@ test = "python manage.py test"
 startapp = "python manage.py startapp {args}"
 loaddata = "python manage.py loaddata {args}"
 dumpdata = "python manage.py dumpdata {args}"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.3.0",
+]
 [project]
 name = ""
 version = ""
@@ -19,7 +24,7 @@ authors = [
     {name = "lígia", email = "angelisgadotti@gmail.com"},
 ]
 dependencies = [
-    "django>=4.1.7",
+    "django>=4.2.1",
     "django-cors-headers>=3.14.0",
     "djangorestframework>=3.14.0",
 ]

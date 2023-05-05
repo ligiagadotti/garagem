@@ -4,18 +4,17 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('garagem', '0003_acessorio_cor_veiculo'),
+        ("garagem", "0003_acessorio_cor_veiculo"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='acessorio',
-            options={'verbose_name_plural': 'acessórios'},
+            name="acessorio",
+            options={"verbose_name_plural": "acessórios"},
         ),
         migrations.AlterModelOptions(
-            name='veiculo',
-            options={'verbose_name_plural': 'veículos'},
+            name="veiculo",
+            options={"verbose_name_plural": "veículos"},
         ),
     ]
