@@ -49,7 +49,7 @@ dependencies = [
 
 [[package]]
 name = "django-cors-headers"
-version = "3.14.0"
+version = "4.0.0"
 requires_python = ">=3.7"
 summary = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
 dependencies = [
@@ -115,7 +115,7 @@ summary = "Provider of IANA time zone data"
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:274bba0fb25e7fae6ed89f9e14db81d51615e3873c22ce42b53bba9f1fa3fdfe"
+content_hash = "sha256:e7bd1702509b9192266d2098dd5b9e0f8be0b81e953414b3e853087b537a8b5c"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -161,9 +161,9 @@ content_hash = "sha256:274bba0fb25e7fae6ed89f9e14db81d51615e3873c22ce42b53bba9f1
     {url = "https://files.pythonhosted.org/packages/12/13/78e8622180f101e95297965045ff1325ea7301c1b80f756debbeaa84c3be/Django-4.2.1-py3-none-any.whl", hash = "sha256:066b6debb5ac335458d2a713ed995570536c8b59a580005acb0732378d5eb1ee"},
     {url = "https://files.pythonhosted.org/packages/89/76/23ee9b9d2bd4119e930eb19164732b79c0a4f6259ca198209b0fe36551ea/Django-4.2.1.tar.gz", hash = "sha256:7efa6b1f781a6119a10ac94b4794ded90db8accbe7802281cd26f8664ffed59c"},
 ]
-"django-cors-headers 3.14.0" = [
-    {url = "https://files.pythonhosted.org/packages/45/f1/972b3a183192841b811e4b7496de0a31c09ae1d83a5391743c8ae0cbd86e/django_cors_headers-3.14.0-py3-none-any.whl", hash = "sha256:684180013cc7277bdd8702b80a3c5a4b3fcae4abb2bf134dceb9f5dfe300228e"},
-    {url = "https://files.pythonhosted.org/packages/bc/f4/8b8c3d5e9a0aeea43576fbe623599052a7699abb54378ddb44adb1ef1ed3/django_cors_headers-3.14.0.tar.gz", hash = "sha256:5fbd58a6fb4119d975754b2bc090f35ec160a8373f276612c675b00e8a138739"},
+"django-cors-headers 4.0.0" = [
+    {url = "https://files.pythonhosted.org/packages/3e/a8/96d90604e76a0fbe449cb104029f2a003916b68ddf12af3ea390654e5a01/django_cors_headers-4.0.0-py3-none-any.whl", hash = "sha256:e3cbd247a1a835da4cf71a70d4214378813ea7e08337778b82cb2c1bc19d28d6"},
+    {url = "https://files.pythonhosted.org/packages/83/d5/4f98ffda4b32f8da5ceb27908f45bd479ae03842db1083a2139034d3c62f/django_cors_headers-4.0.0.tar.gz", hash = "sha256:a971cd4c75b29974068cc36b5c595698822f1e0edd5f1b32ea42ea37326ad4aa"},
 ]
 "djangorestframework 3.14.0" = [
     {url = "https://files.pythonhosted.org/packages/8e/53/5b2a002c5ebafd60dff1e1945a7d63dee40155830997439a9ba324f0fd50/djangorestframework-3.14.0.tar.gz", hash = "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8"},

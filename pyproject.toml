@@ -25,7 +25,7 @@ authors = [
 ]
 dependencies = [
     "django>=4.2.1",
-    "django-cors-headers>=3.14.0",
+    "django-cors-headers>=4.0.0",
     "djangorestframework>=3.14.0",
 ]
 requires-python = ">=3.10"

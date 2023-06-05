@@ -47,6 +47,7 @@ class Veiculo(models.Model):
         max_digits=10, decimal_places=2, default=0, null=True, blank=True
     )
     descricao = models.CharField(max_length=50, null=True, blank=True)
+    acessorio = models.ManyToManyField(Acessorio, related_name="veiculos")
 
     def __str__(self):
         return f"{self.marca} {self.categoria} {self.ano} ({self.cor})"
